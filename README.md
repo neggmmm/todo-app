@@ -26,7 +26,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/your-username/todo-app.git
+git clone https://github.com/neggmmm/todo-app.git
 cd todo-app
 
 Install dependencies:
