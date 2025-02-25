@@ -1,21 +1,51 @@
+/* globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: 0 0% 0%; /* Almost black */
+    --foreground: 0 0% 80%; /* Slightly muted white */
+    --card: 0 0% 8%; /* Very dark gray for cards */
+    --card-foreground: 0 0% 80%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 80%;
+    --primary: 220 50% 50%; /* Keep your primary color */
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 15%; /* Slightly darker secondary */
+    --secondary-foreground: 0 0% 80%;
+    --muted: 0 0% 25%; /* Darker muted color */
+    --muted-foreground: 0 0% 50%; /* Lighter muted foreground */
+    --accent: 0 0% 12%; /* Even darker accent */
+    --accent-foreground: 0 0% 80%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%; /* Gray border color */
+    --input: 0 0% 15%; /* Darker input background */
+    --ring: 220 50% 50%; /* Keep your ring color */
+    --radius: 0.5rem;
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  .dark {
+    --background: 0 0% 0%; /* Almost black */
+    --foreground: 0 0% 80%; /* Slightly muted white */
+    --card: 0 0% 8%; /* Very dark gray for cards */
+    --card-foreground: 0 0% 80%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 80%;
+    --primary: 220 50% 50%; /* Keep your primary color */
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 15%; /* Slightly darker secondary */
+    --secondary-foreground: 0 0% 80%;
+    --muted: 0 0% 25%; /* Darker muted color */
+    --muted-foreground: 0 0% 50%; /* Lighter muted foreground */
+    --accent: 0 0% 12%; /* Even darker accent */
+    --accent-foreground: 0 0% 80%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%; /* Gray border color */
+    --input: 0 0% 15%; /* Darker input background */
+    --ring: 220 50% 50%; /* Keep your ring color */
+  }
 }
