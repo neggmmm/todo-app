@@ -54,5 +54,6 @@ Folder Structure
 Contributing
 
 Want to improve this app? Feel free to fork, make changes, and submit a pull request!
-![image](https://github.com/user-attachments/assets/5e61d0a5-e8da-493e-8c33-38cf83ff23fc)
+![image](https://github.com/user-attachments/assets/50cd8842-4243-4d61-8ff2-63c45060c50c)
+
 
