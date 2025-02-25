@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Todo App
 
-## Getting Started
+A sleek and minimalistic Todo App built with Next.js, React, and shadcn/ui. This application allows users to add, edit, complete, and delete tasks with priority levels, due dates, and filtering options.
 
-First, run the development server:
+Features
 
-```bash
+✅ Add, edit, and delete tasks
+✅ Mark tasks as completed or active
+✅ Set due dates and priorities (Low, Medium, High)
+✅ Search and filter tasks
+✅ Dark theme inspired by shadcn/ui
+
+Tech Stack
+
+Next.js (App Router)
+
+React
+
+TypeScript
+
+shadcn/ui (for UI components)
+
+Tailwind CSS (for styling)
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/todo-app.git
+cd todo-app
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Folder Structure
 
-## Learn More
+📂 todo-app
+ ┣ 📂 components/ui   # Reusable UI components
+ ┣ 📂 pages           # Main application pages
+ ┣ 📜 page.tsx       # Todo app logic
+ ┣ 📜 globals.css    # Global styles
+ ┣ 📜 layout.tsx     # Root layout
+ ┗ 📜 README.md      # Documentation
 
-To learn more about Next.js, take a look at the following resources:
+Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Want to improve this app? Feel free to fork, make changes, and submit a pull request!
